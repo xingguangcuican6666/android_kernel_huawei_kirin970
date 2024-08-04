@@ -34,7 +34,8 @@ struct seq_file;
 #define MAX_CFTYPE_NAME		64
 
 /* define the enumeration of all cgroup subsystems */
-#define SUBSYS(_x) _x ## _cgrp_id,
+/* define the enumeration of all cgroup subsystems */
+#define SUBSYS(_x) _x##_cgrp_id,
 enum cgroup_subsys_id {
 #include <linux/cgroup_subsys.h>
 	CGROUP_SUBSYS_COUNT,
