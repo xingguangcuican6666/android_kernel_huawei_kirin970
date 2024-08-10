@@ -61,7 +61,7 @@ SUBSYS(hugetlb)
 #endif
 
 #if IS_ENABLED(CONFIG_CGROUP_PIDS)
-SUBSYS(pids)
+//SUBSYS(pids)
 #endif
 
 /*
